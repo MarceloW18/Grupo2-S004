@@ -1,0 +1,20 @@
+# ROS 2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# Bags de pruebas/descartados
+bags/rc0_recta_prueba*/
+bags/*viejo*/
+bags/*incompleta*/
+bags/*cancelada*/
+bags/*sin_medicion*/
+bags/*medicion_incorrecta*/
+
+# Temporales
+*.tmp
+*~

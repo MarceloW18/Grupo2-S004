@@ -1,0 +1,40 @@
+RC0 - Grupo 2 - S-004
+ROS_DOMAIN_ID=20
+
+===== NODOS =====
+/YB_Car_Node
+/odom_corrector
+
+===== TOPICS =====
+/battery
+/beep
+/cmd_vel
+/imu
+/odom
+/odom_raw
+/odom_reset
+/parameter_events
+/rosout
+/scan
+/servo_s1
+/servo_s2
+/tf
+
+===== FRECUENCIA /odom =====
+average rate: 11.488
+	min: 0.077s max: 0.135s std dev: 0.01466s window: 13
+average rate: 11.119
+	min: 0.077s max: 0.135s std dev: 0.01758s window: 24
+average rate: 11.259
+	min: 0.077s max: 0.135s std dev: 0.01685s window: 36
+average rate: 11.113
+	min: 0.077s max: 0.137s std dev: 0.01754s window: 48
+
+===== FRECUENCIA /imu =====
+WARNING: topic [/imu] does not appear to be published yet
+average rate: 24.373
+	min: 0.010s max: 0.069s std dev: 0.02516s window: 27
+average rate: 24.688
+	min: 0.010s max: 0.069s std dev: 0.02340s window: 53
+average rate: 24.757
+	min: 0.010s max: 0.071s std dev: 0.02396s window: 79
